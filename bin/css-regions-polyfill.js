@@ -4830,7 +4830,7 @@ module.exports = (function(window, document, cssRegions) { "use strict";
 					fragment.appendChild(elToInsert);
 					
 					// clone the style
-					cssRegionsHelpers.copyStyle(el, elClone);
+					//cssRegionsHelpers.copyStyle(el, elClone);
 				
 			} else {
 				
@@ -4848,7 +4848,7 @@ module.exports = (function(window, document, cssRegions) { "use strict";
 					fragment.appendChild(elToInsert);
 					
 					// clone the style
-					cssRegionsHelpers.copyStyle(el, elClone);
+					//cssRegionsHelpers.copyStyle(el, elClone);
 					
 					el = el.nextSibling;
 				}
